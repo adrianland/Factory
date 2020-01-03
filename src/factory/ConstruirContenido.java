@@ -7,6 +7,8 @@ public class ConstruirContenido {
             return new Cancion(name);
         } else if (name.toLowerCase().endsWith(".mp4")) {
             return new Video(name);
+        }  else if (name.toLowerCase().endsWith(".gps")) {
+            return new MapaDeCali(name);
         }
         throw new Exception("Este tipo de archivo no se reconoce");
     }
