@@ -9,6 +9,6 @@ public class Video extends Contenido {
 
     @Override
     void reproducir() {
-        System.out.println("Reproduciendo el video " + super.nombre);
+        System.out.println("Reproduciendo el video " + super.nombre+ " turururu");
     }
 }
